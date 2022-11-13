@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+body {
+    background-image: url("image/6893184.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Reggae One', cursive;
+}
+#guessGame {
+    margin-top: 10em;
+    height: 28%;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+input {
+    margin: 8px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid pink;
+    font-family: 'Reggae One', cursive;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: azure;
+    gap: 15px;
+    border-radius: 15px;
+    background-color: rgba(231, 173, 178, 0.5);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+input:focus {
+    outline: none;
+    border-color: pink;
+}
+.hint {
+    color: white;
+}
+.inputText:hover {
+    color: white;
+    width: 62px;
+    height: 62px;
+    border: 1px solid purple;
+}
+#item {
+    position: absolute;
+    top: 18em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    height: 40px;
+    gap: 4px; 
+}
+#vit {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 4px; 
+}
+#correctCount {
+    margin-right: 1em;
+    color: #fff; 
+    font-size: 24px;
+    font-style: bold;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+}
+.toLife {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.5);;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.remLife {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: rgba(223, 168, 180, 0.801);;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
