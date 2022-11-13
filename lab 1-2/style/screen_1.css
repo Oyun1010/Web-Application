@@ -1,0 +1,127 @@
+.screen_1 {
+    background-color: #235390;
+    background-image: url("https://d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg");
+    font-family: 'din-round', 'sans-serif';
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:  100vh;
+    width: 50%;
+    gap: 1em;
+}
+.container h1 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    gap: 12px;
+}
+.btn {
+    width: 320px;
+    height: 50px;
+    border-radius: 12px;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.container .btn:first-child { 
+    background-color: #58cc02;
+    border-bottom: 0px solid #58a700;
+    border-width: 0px 2px 4px 2px;
+}
+.container .btn:last-child {
+    background-color: #235390;
+    border: 0px solid #042c60 ;
+    border-width: 1px 2px 4px 2px;
+}
+.footerItem {
+    width: 100%;
+    background-color: #0a4a82;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    color: #fff;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.footer::-webkit-scrollbar {
+    width: 10px;
+}
+.footer::-webkit-scrollbar-track {
+    border-radius: 12px;
+}
+.footer::-webkit-scrollbar-thumb {
+    width: 10px;
+    border-radius: 12px;
+    background-color: #fff;
+
+}
+
+.footer > .fchip {
+    display: flex;
+    height: 28px;
+    width: 120;
+    font-size: 16px;
+    align-items: center;
+    justify-content: start;
+    color: #fff;
+    gap: 1em;
+}
+.footer > .fchip > img {
+    border-radius: 6px;
+    border: 2px solid #fff;
+}
+.footer >.fbtn {
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    border: none;
+    background-color: #0a4a82;  
+}
+
+@media screen and (max-width:980px) {
+    .screen_1 {
+        width: 100%;
+        height: max-content;
+    }
+    .container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container > * {
+        width: 100%;
+        align-items: center;
+    }
+    .container > img {
+        width: 192px;
+        height: 192px;
+    }
+    .footer {
+        display: none;
+    }
+}
+
