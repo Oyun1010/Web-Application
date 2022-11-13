@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sofia&display=swap');
+
+.title {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Sofia', cursive;
+  background: linear-gradient(135deg, #ab92da , #6c38cc , #da4d3d75 ,#FF7F50, #b43795 ,#b46f37);
+  background-size: 400%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 10s linear infinite;
+}
+@keyframes animate {
+  100%{
+    background-position: 400%;
+  }
+}
