@@ -1,0 +1,14 @@
+.item {
+    width: 400px;
+}
+.title {
+    margin-top: 0%;
+    color: #7e7776;
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+.text {
+    margin-top: 0%;
+    margin-bottom: 6px;
+    margin-left: 16px;
+}

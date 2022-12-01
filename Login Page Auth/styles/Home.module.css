@@ -1,0 +1,94 @@
+.loginContainer {
+  width: 500px;  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.regContainer {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+}
+.head {
+  height: 80px;
+  font-size: 42px;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+.input{
+  display: block;
+  width: 450px;
+  height: 55px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: transparent;
+  border-image: linear-gradient(#EFEBE0, #FB4570, #FB8DA0 ) 8;
+  border-width: 2px;
+  border-style: solid;
+  color: gainsboro;
+  font-size: 16px;  
+}
+.btn {
+  width: 450px;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 12px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #FB4570;
+  border: 1px solid transparent;
+}
+.input::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.footer > * {
+  position: relative;
+  height: 50px;
+  display: inline-block;
+  margin: 6px;
+  align-items:flex-end;
+  margin-top: 30px;
+  text-align: center;
+  background-color: transparent;
+
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.home > h1 {
+  font-size: 45px;
+}
+.home > p {
+  font-size: 24px;
+  line-height: 50px;
+  color: #FB4570;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+}
