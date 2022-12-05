@@ -1,13 +1,16 @@
 import Head from 'next/head'
-import Header from '../components/header/Header'
-import SearchItem from "../components/search/SearchItem"
+import Header from '../components/Header'
+import SearchItem from "../components/SearchItem"
 import Image from 'next/image'
-import WineData from '../components/wine_items/WineItems'
+import WineData from '../components/WineItems'
 import styles from '../styles/Home.module.css'
 import { useRouter } from 'next/router'
 
+
 export default function Home() {
-  const router = useRouter();
+  // const router = useRouter();
+  // const search = router.query;
+  // console.log("Search: " + search);
  
   return (
     <div className={styles.container}>
