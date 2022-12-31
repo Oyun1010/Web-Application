@@ -1,0 +1,6 @@
+#com {
+    display:none;
+}
+#photo:hover #com{
+    display:block;
+}
