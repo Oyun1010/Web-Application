@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  width: auto;
+  height: 98vh;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+    background-image: url("../public/bg2.jpg");
+  }
+  body { 
+    color: #171717;   
+   
+  }
+}
